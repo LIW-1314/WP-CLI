@@ -20,7 +20,7 @@ def _home() -> Path:
 class LlmConfig:
     provider: str = "deepseek"
     model: str = "deepseek-v4-flash"
-    api_key: str = "sk-123d461ea91e4255b6e9e17bdc5c590e"
+    api_key: str = ""
     base_url: str | None = None
     context_window: int | None = None
     # Optional per-million-token overrides, keyed by currency then
