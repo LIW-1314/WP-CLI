@@ -2,26 +2,8 @@
 
 WpCLI Python 是一个运行在终端里的 AI Agent CLI，面向真实项目开发场景：读写文件、搜索代码、执行命令、联网检索、调用 MCP 工具、保存记忆、生成快照、恢复现场，并通过 Runtime API 对外提供线程、turn、事件和后台任务能力。
 
-![](https://cdn.paicoding.com/stutymore/best-city-ai-agent-jd-20260708142704.png)
-
 这个仓库是 WpCLI 的 Python 版本。它不是一个空壳 Demo，而是按真实 CLI 产品来做：核心路径有测试覆盖，也经过本地 smoke 和真实终端运行验证。
 
-## 配套教程路线
-
-如果你是为了学习 Agent 工程、准备简历或准备面试，可以先看这条教程路线：
-
-[WpCLI 学习路线：手搓一个 Java 版 Claude Code](https://paicoding.com/wpcli-learning-path)
-
-这篇路线不是单纯教你“从第一行源码看到最后一行”，而是按真实学习和求职路径来组织：
-
-- 先把 WpCLI 在本地跑起来，直观看到 ReAct、工具调用、Plan 模式和联网搜索是怎么工作的
-- 再把项目能力拆成可以写进简历的模块，比如 ReAct、Plan-and-Execute、Memory、RAG、MCP、HITL、多模态和 Runtime API
-- 然后围绕简历里写到的模块去深挖源码，并同步准备对应的 Agent 面试题
-- 最后通过 debug、改 bug、加工具、整理踩坑笔记，把项目真正变成自己的工程经验
-
-教程目录覆盖实战篇、简历篇和面试篇，适合作为学习 WpCLI Java 版和理解本 Python 版设计取舍的路线图。
-
-![](https://cdn.paicoding.com/stutymore/wpcli-python-launch-20260708161001.png)
 
 ## 功能特性
 
